@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bro"
+    tools:context=".HelpActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="How to use Quiz Bro?"
+        android:textSize="40sp"
+        android:fontFamily="@font/fav1"/>
+
+
+</LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Press the Start button to enter into the Category Menu."
+            android:textSize="20sp"
+            android:fontFamily="@font/copse"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"/>
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/nextbutton"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Start"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After entering the Category Menu ,select the topic in which you are interested."
+        android:textSize="20sp"
+        android:fontFamily="@font/copse"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:elevation="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/customcategorylistbackground">
+
+        <ImageView
+            android:id="@+id/categoryImage"
+            android:layout_width="90dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bro"
+            android:layout_height="60dp"
+            />
+
+        <TextView
+            android:id="@+id/categoryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Name Of the category"
+            android:textColor="#ffffff"
+            android:textSize="27sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After that you will be directed to the Sets Menu.Each set carries 10 different questions.Click on any one of the set to enter into the Quiz Menu."
+        android:textSize="20sp"
+        android:fontFamily="@font/copse"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/nextbutton">
+
+        <TextView
+            android:id="@+id/iconnumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:elevation="20dp"
+            android:layout_gravity="center"
+            android:textSize="60sp"
+            android:fontFamily="@font/amaranth_bold"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After entering the Questions Menu ,10 questions will be given to you to answer.Each question has four options and carries 1 points each."
+        android:textSize="20sp"
+        android:fontFamily="@font/copse"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="@font/copse"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Select an option which you feel is right.If your Answer is correct a green option will be shown as shown below."/>
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/greenoption"
+        android:fontFamily="@font/fav1"
+        android:text="Jamshedpur"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="@font/copse"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:text="And if your Answer is incorrect  a red option will be shown as shown below."/>
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/redoption"
+        android:fontFamily="@font/fav1"
+        android:text="Jamshedpur"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="@font/copse"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:text="After answering to all the 10 questions you will be directed to the Score Board.Where your score will be displaced."/>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

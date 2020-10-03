@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/aladin</item>
+        <item>@font/andika</item>
+        <item>@font/boogaloo</item>
+        <item>@font/copse</item>
+        <item>@font/hanalei_fill</item>
+        <item>@font/knewave</item>
+        <item>@font/nosifer</item>
+        <item>@font/rye</item>
+    </array>
+</resources>

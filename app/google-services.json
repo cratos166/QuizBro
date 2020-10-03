@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "817867400918",
+    "firebase_url": "https://quiz-bro-ca190.firebaseio.com",
+    "project_id": "quiz-bro-ca190",
+    "storage_bucket": "quiz-bro-ca190.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817867400918:android:cca7444b654dd3562b0b77",
+        "android_client_info": {
+          "package_name": "com.nbird.quizbro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817867400918-v53i1fd5ac96nd8egl2bkeqia3kilbj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt9KcuWrW5tLlXAky9uvydMtuV0ys3uJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817867400918-v53i1fd5ac96nd8egl2bkeqia3kilbj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
